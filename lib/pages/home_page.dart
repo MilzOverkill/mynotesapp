@@ -4,14 +4,14 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:notesapp/services/firestore.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class HomePage1 extends StatefulWidget {
+  const HomePage1({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<HomePage1> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage1> {
   //firestore
   final FirestoreService firestoreService = FirestoreService();
 

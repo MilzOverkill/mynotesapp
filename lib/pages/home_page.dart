@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
                     //delete button
                     IconButton(
                       onPressed: ()=> firestoreService.deletenote(docID),
-                      icon: const Icon(Icons.delete),
+                      icon: const Icon(Icons.delete)
                 ),
 
 
